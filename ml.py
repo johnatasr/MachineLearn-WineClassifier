@@ -4,7 +4,7 @@ import pandas as pd
 
 
 # Altere o caminho do arqwuivo csv, ou busque outro modelo de alguma API
-path = 'C:\dev\MachineLearning\data\wine_dataset.csv'
+path = 'wine_dataset.csv'
 arquivo = pd.read_csv(path)
 
 #Refatora os tipos de vinho
